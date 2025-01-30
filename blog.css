@@ -1354,7 +1354,7 @@
         padding: 10px; 
         overflow-x: hidden; 
 
-    .blog-card {
+    .blog-card{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1373,4 +1373,5 @@
         border-radius: 8px;
     }
 }
+
 }
