@@ -1262,11 +1262,10 @@
 
 /* 479px */
 @media screen and (max-width: 479px) {
-    /* Blog Title Adjustments */
     .blog-title h5 {
-        font-size: 18px; /* Slightly larger font for better readability */
+        font-size: 18px; 
         line-height: 1.4;
-        text-align: center; /* Center-align for smaller screens */
+        text-align: center; 
     }
 
     .blog-title p {
@@ -1276,14 +1275,12 @@
         text-align: center;
     }
 
-    /* Read More Button */
     .read-more-main a {
         font-size: 14px;
-        padding: 6px 12px; /* Add padding for better touch usability */
+        padding: 6px 12px; 
         text-align: center;
     }
 
-    /* Navigation Buttons (Arrows) */
     .nav-buttons, .side-arrow {
         width: 40px;
         height: 40px;
@@ -1291,31 +1288,28 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 8px auto; /* Center the buttons */
+        margin: 8px auto; 
     }
 
-    /* Blog Container Styling */
     .blog-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust grid columns */
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
         gap: 15px;
-        padding: 15px; /* Add padding to avoid screen edge overflow */
+        padding: 15px; 
     }
 
-    /* Blog Card Styling */
     .blog-card {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Center content for uniformity */
+        align-items: center; 
         gap: 12px;
         margin: 10px 0;
         padding: 15px;
         background: var(--black);
         border-radius: 10px;
-        text-align: center; /* Center align text */
+        text-align: center; 
     }
 
-    /* Blog Card Images */
     .blog-card-img img {
         max-width: 100%;
         height: auto;
@@ -1324,9 +1318,8 @@
     }
 }
 @media screen and (max-width: 374px) {
-    /* Blog Title Adjustments */
     .blog-title h5 {
-        font-size: 16px; /* Smaller font for very small screens */
+        font-size: 16px; 
         line-height: 1.4;
         text-align: center;
     }
@@ -1338,14 +1331,12 @@
         text-align: center;
     }
 
-    /* Read More Button */
     .read-more-main a {
         font-size: 12px;
         padding: 5px 10px;
         text-align: center;
     }
 
-    /* Navigation Buttons (Arrows) */
     .nav-buttons, .side-arrow {
         width: 30px;
         height: 30px;
@@ -1356,20 +1347,17 @@
         margin: 5px auto;
     }
 
-    /* Blog Container Styling */
     .blog-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust grid for small screens */
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
         gap: 10px;
-        padding: 10px; /* Add padding to avoid content clipping */
-        overflow-x: hidden; /* Prevent horizontal overflow */
-    }
+        padding: 10px; 
+        overflow-x: hidden; 
 
-    /* Blog Card Styling */
     .blog-card {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Center content for uniformity */
+        align-items: center;
         gap: 10px;
         margin: 10px 0;
         padding: 10px;
@@ -1378,7 +1366,6 @@
         text-align: center;
     }
 
-    /* Blog Card Images */
     .blog-card-img img {
         max-width: 100%;
         height: auto;
