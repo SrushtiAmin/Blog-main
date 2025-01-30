@@ -1142,7 +1142,7 @@
 /* 1600px */
 @media screen and (max-width: 1600px) {
     .blog-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
 }
@@ -1150,7 +1150,7 @@
 /* 1440px */
 @media screen and (max-width: 1440px) {
     .blog-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
 }
@@ -1158,7 +1158,7 @@
 /* 1024px */
 @media screen and (max-width: 1024px) {
     .blog-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 15px;
     }
 
@@ -1178,7 +1178,7 @@
 /* 900px */
 @media screen and (max-width: 900px) {
     .blog-container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 15px;
     }
 
@@ -1211,7 +1211,7 @@
     }
 
     .blog-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
 
